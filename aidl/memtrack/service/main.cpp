@@ -1,8 +1,7 @@
+#include <Memtrack.h>
 #include <android-base/logging.h>
 #include <android/binder_manager.h>
 #include <android/binder_process.h>
-
-#include "Memtrack.h"
 
 #undef LOG_TAG
 #define LOG_TAG "memtrack-service"
